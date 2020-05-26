@@ -6,7 +6,7 @@ const stock = {
     hundreds: 20, 
     fifties: 15,
     twenties: 12, 
-    tens: 0
+    tens: 15
 }
 
 const calculateBankNotes = (event) => {
