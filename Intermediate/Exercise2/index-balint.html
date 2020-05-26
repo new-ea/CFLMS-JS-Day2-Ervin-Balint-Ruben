@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript HomeWork FizzBuzz</title>
+</head>
+<body>
+    <!-- Content in here -->
+        
+        
+        
+        
+        
+        
+        
+    <!-- JavaScript at the end -->
+    <script>
+        "use strict"
+        let countTill;
+
+        function fizzBuzz(countTill) {
+            for (let ifFizzBuzz = 0; ifFizzBuzz <= countTill; ifFizzBuzz++) {
+                console.log(`Program is starting to calculate if ${ifFizzBuzz} is FizzBuzz.`)
+                const dividedByThree = ifFizzBuzz % 3;
+                const dividedByFive = ifFizzBuzz % 5;
+                if (dividedByThree == 0 && dividedByFive == 0) {
+                    console.log(`${ifFizzBuzz} is a FizzBuzz.`)
+                } else if (dividedByThree == 0) {
+                    console.log(`${ifFizzBuzz} is a Fizz.`)
+                } else if (dividedByFive == 0) {
+                    console.log(`${ifFizzBuzz} is a Buzz.`)
+                } else {
+                    console.log(`${ifFizzBuzz} is not a Fizz nor a Buzz.`)
+                }
+                }}
+        
+        fizzBuzz(100);
+
+
+    </script>
+
+</body>
+</html>
